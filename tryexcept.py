@@ -24,3 +24,5 @@ except:
     print("You cannot divide a number by zero")
 finally:
     print("The end")
+
+print("I've learnt about git today")
