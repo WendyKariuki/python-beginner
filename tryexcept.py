@@ -27,3 +27,9 @@ finally:
 
 print("I've learnt about git today")
 
+text = input("username: ")
+try:
+    number = int(text)
+    print(number)
+except:
+    print("Invalid username")
