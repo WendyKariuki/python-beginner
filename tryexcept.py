@@ -33,3 +33,12 @@ try:
     print(number)
 except:
     print("Invalid username")
+
+a = 4
+y = 0
+try:
+    print(a/y)
+except:
+    print("Zero Division error")
+finally:
+    print("Run regardless of any error")
