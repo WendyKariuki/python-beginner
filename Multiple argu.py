@@ -1,0 +1,1 @@
+print("I'm Wendy","I'm beautiful", "and i love dogs", sep=" ", end="."
