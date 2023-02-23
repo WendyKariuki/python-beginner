@@ -35,3 +35,14 @@ if number3 > largest_number:
 # Print the result
 print("The largest number is:", largest_number)
 
+
+year = int(input("Enter a year: "))
+
+if the year is not divisible by 4:
+    print(It is common year)
+elif the year number is not divisible by 100:
+    print(It is a leap year)
+elif the year number is not divisible by 400:
+    print(It is a common year)
+else:
+    print(It is a leap year)
