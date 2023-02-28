@@ -38,11 +38,17 @@ print("The largest number is:", largest_number)
 
 year = int(input("Enter a year: "))
 
-if the year is not divisible by 4:
-    print(It is common year)
-elif the year number is not divisible by 100:
-    print(It is a leap year)
-elif the year number is not divisible by 400:
-    print(It is a common year)
+if year % 4 != 0:
+    print("It is common year")
+elif year % 100 != 0:
+    print("It is leap year")
+elif year % 400 != 0:
+    print("It is a common year")
 else:
-    print(It is a leap year)
+    print("It is a leap year")
+
+    #While
+while True:
+        print("I'm stuck inside a loop.")
+
+
