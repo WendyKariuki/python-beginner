@@ -17,6 +17,6 @@ for expo in range(16):
 
 import time
 for mississipi in range(1, 5):
-    print("The value of mississipi is currently", mississipi)
+    print("mississipi", mississipi)
 print("Ready or not, here I come!")
 
