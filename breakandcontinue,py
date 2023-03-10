@@ -11,3 +11,11 @@ for i in range(1, 6):
         continue
     print("Inside the loop.", i)
 print("Outside the loop.")
+
+secretword = chupacabra
+word = input("Guess secretword:" )
+
+while word != secretword:
+    break
+    print("You've successfully left the loop.")
+    
