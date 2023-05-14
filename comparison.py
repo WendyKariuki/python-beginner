@@ -1,11 +1,12 @@
-n = int(input("Enter a number: "))
-if n <= 100:
-    print(False)
-else:
-    print(True)
+# n = int(input("Enter a number: "))
+# if n <= 100:
+#     print(False)
+# else:
+#     print(True)
 
-n = int(input("Enter a number: "))
-print(n <= 100)
+# n = int(input("Enter a number: "))
+# print(n <= 100)
+
 
 plant = input("Enter a plant: ")
 if plant == "Spathiphyllum":

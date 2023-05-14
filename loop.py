@@ -1,10 +1,5 @@
 secretnumber = 777
-number = int(input("Guess a number:" ))
 
-while number != secretnumber:
-    print("Haha! You're stuck in my loop!")
-    number = int(input("Guess a number:"))
-   
 print( """
 +================================+
 | Welcome to my game, muggle!    |
@@ -14,3 +9,9 @@ print( """
 | So, what is the secret number? |
 +================================+
 """)
+number = int(input("Guess a number:" ))
+
+while number != secretnumber:
+    print("Haha! You're stuck in my loop!")
+    number = int(input("Guess a number:"))
+print("well done")
